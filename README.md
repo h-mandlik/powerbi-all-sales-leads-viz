@@ -40,7 +40,7 @@
 
 ## 🔗 Live Dashboard
 
-👉 [Click here to view the Power BI Dashboard]([https://app.powerbi.com/view?r=EXAMPLE_LINK_ID](https://app.powerbi.com/view?r=eyJrIjoiNTY3MThlOWQtOWZjZC00NjRiLTlkMmItYTk5YjYyN2VmYzkwIiwidCI6IjZkNjAwMTM4LTA5MzItNDliZC05NTFjLTBkODM4MmIxZWU3NCJ9&pageName=e42ba82308257c564ca1))
+👉 [Click here to view the Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNTY3MThlOWQtOWZjZC00NjRiLTlkMmItYTk5YjYyN2VmYzkwIiwidCI6IjZkNjAwMTM4LTA5MzItNDliZC05NTFjLTBkODM4MmIxZWU3NCJ9&pageName=e42ba82308257c564ca1)
 
 > This report shows various visualizations of Sales and Leads data including KPIs, funnel, maps, profit trends, and more.
 
