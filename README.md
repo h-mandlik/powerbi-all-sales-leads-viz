@@ -35,7 +35,15 @@
 ## 📷 Dashboard Preview
 ![Gauge](https://github.com/user-attachments/assets/5efce5ca-a5a6-4cba-9031-832f3bea7e9c)
 
-https://app.powerbi.com/links/G61NZ0EsER?ctid=6d600138-0932-49bd-951c-0d8382b1ee74&pbi_source=linkShare
+
+---
+
+## 🔗 Live Dashboard
+
+👉 [Click here to view the Power BI Dashboard]([https://app.powerbi.com/view?r=EXAMPLE_LINK_ID](https://app.powerbi.com/view?r=eyJrIjoiNTY3MThlOWQtOWZjZC00NjRiLTlkMmItYTk5YjYyN2VmYzkwIiwidCI6IjZkNjAwMTM4LTA5MzItNDliZC05NTFjLTBkODM4MmIxZWU3NCJ9&pageName=e42ba82308257c564ca1))
+
+> This report shows various visualizations of Sales and Leads data including KPIs, funnel, maps, profit trends, and more.
+
 
 ---
 
