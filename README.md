@@ -69,10 +69,10 @@
 ## 🧠 Sample Insights
 
 - Major sales are concentrated in a few metro cities
-- Corporate segment shows higher average order values
+- Customer segment shows higher average order values
 - Most orders are shipped via "Standard Class" but yield lower profit
-- Funnel shows lead drop-offs between initial contact and final conversion
-- Highest contribution to profit is from "Technology" → "Phones"
+- Funnel shows lead drop-offs between Prospect and Converted Leads
+- Highest contribution to profit is from "Technology" → "Copiers"
 
 ---
 
