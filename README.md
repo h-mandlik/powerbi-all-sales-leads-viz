@@ -12,75 +12,70 @@
 
 ---
 
----
-
 ## 📊 Visuals Included
 
-| Chart Type | Dimensions & Measures | Description |
-|------------|------------------------|-------------|
-| **Bar Chart** | City, Sum of Sale | Shows sales distribution across cities |
-| **Column Chart** | Segment, Sum of Sale | Compares sales by customer segments |
-| **Pie Chart** / **Donut Chart** | Segment, Sum of Sale | Visual share of each segment in total sales |
-| **Clustered Column Chart** | Category, Sum of Sale | Sales performance across product categories |
-| **Line Chart** | Ship Mode, Profit | Trend of profit across different shipping modes |
-| **Area Chart** | Ship Mode, Sum of Quantity | Total quantity sold by shipping mode |
-| **Line & Stacked Column Chart** | Order Date, Sales, Profit | Combined view of monthly profit trends and sales volume |
-| **Line & Clustered Column Chart** | Order Date, Sales, Quantity | Relationship between sales and quantity over time |
-| **Map** | City | Geographical visualization of city-level sales |
-| **Funnel Chart** | Type, Sum of Count | Lead journey stages or sales funnel representation |
-| **Gauge Chart** | Sum of Profit, Max, Min | Current profit status vs target/thresholds |
-| **KPI Card** | Profit, Order Date, Target-Trend | Key performance indicator tracking |
-| **Decomposition Tree** | Profit, Category, Sub-category | Drill-down analysis of profit across categories |
+| Chart Type | X-Axis | Y-Axis | Additional Info |
+|------------|--------|--------|------------------|
+| **Bar Chart** | City | Sum of Sale | Displays total sales across cities |
+| **Column Chart** | Segment | Sum of Sale | Compares sales across customer segments |
+| **Pie Chart / Donut Chart** | Segment | Sum of Sale | Shows the share of each segment in total sales |
+| **Clustered Column Chart** | Category | Sum of Sale | Compares sales among product categories |
+| **Line Chart** | Ship Mode | Profit | Profit trend by shipping method |
+| **Area Chart** | Ship Mode | Sum of Quantity | Quantity sold by shipping method |
+| **Line & Stacked Column Chart** | Order Date | Sales (Column), Profit (Line) | Monthly sales + profit comparison |
+| **Line & Clustered Column Chart** | Order Date | Sales (Column), Quantity (Line) | Trend of sales and quantities over time |
+| **Map** | City | — | Shows geographic distribution of sales or orders |
+| **Funnel Chart** | Type | Sum of Count | Lead/sales funnel based on stages or types |
+| **Gauge Chart** | — | Sum of Profit | Target: Min and Max values used as thresholds |
+| **KPI Card** | — | Sum of Profit | Trend: Order Date; Target-based performance tracking |
+| **Decomposition Tree** | Category → Sub-Category | Sum of Profit | Allows drill-down by category and sub-category |
 
 ---
 
 ## 📷 Dashboard Preview
+![Gauge](https://github.com/user-attachments/assets/5efce5ca-a5a6-4cba-9031-832f3bea7e9c)
 
-![Dashboard Screenshot](images/dashboard_preview.png)
-
----
-
-## 🧠 Key Insights (Sample)
-
-- **Top-selling cities** drive over 40% of total revenue.
-- **Consumer segment** leads in both sales and profit margin.
-- **Standard Class shipping** contributes the most to overall quantity but with lower profit.
-- A clear upward **sales trend** seen in Q4 with simultaneous **profit peaks**.
-- Decomposition tree reveals **Office Supplies → Binders** as a profit bottleneck.
+https://app.powerbi.com/links/G61NZ0EsER?ctid=6d600138-0932-49bd-951c-0d8382b1ee74&pbi_source=linkShare
 
 ---
 
 ## ⚙️ How to Use
 
-1. Download or clone the repository.
-2. Open `sales_leads_dashboard.pbix` in **Power BI Desktop**.
-3. Replace the sample data with your own if needed (use `sales_data.csv`, `leads_data.csv`).
-4. Explore, interact, or modify visuals and filters.
+1. Clone this repository or download the files
+2. Open `All_Viz.pbix` in **Power BI Desktop**
+3. Load the data from `data/` folder
+4. Interact with the visuals and apply filters/slicers as needed
+5. Optional: Customize visuals or connect to your own dataset
 
 ---
 
 ## 🛠 Tools Used
 
 - Power BI Desktop
-- DAX for calculated columns/measures
-- CSV files (mock sales/leads data)
-- Power BI native visuals and filters
+- DAX (Calculated columns, KPIs)
+- Custom visuals: KPI, Decomposition Tree, Funnel, Gauge
+- Sample data in CSV format
 
 ---
 
-## 📌 Possible Enhancements
+## 🧠 Sample Insights
 
-- Add slicers for dynamic filtering (e.g., region, year)
-- Integrate real-time data sources (Excel, SQL)
-- Create drill-through pages for segment or category-level analysis
-- Publish to Power BI Service and embed it in a portfolio or blog
+- Major sales are concentrated in a few metro cities
+- Corporate segment shows higher average order values
+- Most orders are shipped via "Standard Class" but yield lower profit
+- Funnel shows lead drop-offs between initial contact and final conversion
+- Highest contribution to profit is from "Technology" → "Phones"
+
+---
+
+## 🔗 Publish or Share
+
+You can publish this report to [Power BI Service](https://app.powerbi.com/) and use the **"Publish to Web"** link in your LinkedIn, GitHub profile, or portfolio.
 
 ---
 
 ## 📄 License
 
-This project is for learning and portfolio purposes only. Feel free to fork and modify.
+This project is for educational and portfolio use. Feel free to fork and adapt it.
 
 ---
-
-
